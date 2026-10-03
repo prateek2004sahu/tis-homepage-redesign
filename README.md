@@ -1,15 +1,13 @@
-# Tulas International School (TIS) - Homepage Redesign
-
 A modern, animated redesign of the TIS homepage (copy and brand colours kept from tis.edu.in), built for speed, mobile responsiveness and smooth motion.
 
-## 🚀 Live Demo
+
 - Live URL:https://tis-homepage-redesign-liart.vercel.app
 - Repository:https://github.com/prateek2004sahu/tis-homepage-redesign
 
-## 🛠️ Tech Stack
+
 React 18 + Vite · Tailwind CSS 3 · Framer Motion · Lucide React
 
-## ✨ Standout Features (all 4 implemented)
+
 1. **Custom Cursor** - spring-smoothed ring that grows over links/buttons; hidden on touch devices.
 2. **Scroll-Triggered Reveals** - staggered fade/slide-in (0.55s) via a reusable `Reveal` component.
 3. **Animated Dark/Light Theme** - sliding switch, CSS variables, saved in localStorage, respects OS setting.
@@ -17,7 +15,7 @@ React 18 + Vite · Tailwind CSS 3 · Framer Motion · Lucide React
 
 Bonus: count-up statistics (`useCountUp`), accessible mobile menu, reduced-motion friendly smooth scroll.
 
-## 📦 Getting Started Locally
+
 ```bash
 git clone https://github.com/<your-username>/tis-homepage-redesign.git
 cd tis-homepage-redesign
@@ -26,11 +24,11 @@ npm run dev      # http://localhost:5173
 npm run build    # production build in dist/
 ```
 
-## 🌐 Deploy
+
 **Vercel:** push to GitHub → vercel.com → *Add New Project* → import repo → Deploy (Vite is auto-detected).
 **Netlify:** build command `npm run build`, publish directory `dist`.
 
-## 🧩 Component Architecture
+
 ```
 src/
 ├── components/
@@ -42,5 +40,5 @@ src/
 └── data/content.js  All copy, stats, navigation
 ```
 
-## 🎨 Brand Identity Retained
+
 Navy + yellow palette, original copy, stats, rankings, sports list and parent testimonials from tis.edu.in.
