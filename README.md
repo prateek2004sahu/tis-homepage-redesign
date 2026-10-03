@@ -3,8 +3,8 @@
 A modern, animated redesign of the TIS homepage (copy and brand colours kept from tis.edu.in), built for speed, mobile responsiveness and smooth motion.
 
 ## 🚀 Live Demo
-- **Live URL:** _add your Vercel / Netlify link here_
-- **Repository:** _add your GitHub link here_
+- Live URL:https://tis-homepage-redesign-liart.vercel.app
+- Repository:https://github.com/prateek2004sahu/tis-homepage-redesign
 
 ## 🛠️ Tech Stack
 React 18 + Vite · Tailwind CSS 3 · Framer Motion · Lucide React
