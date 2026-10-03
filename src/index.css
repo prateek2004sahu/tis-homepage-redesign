@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme tokens (space-separated RGB so Tailwind can add opacity) */
+:root {
+  --bg: 255 255 255; --fg: 17 24 39; --card: 244 246 252;
+  --brand: 20 40 110; --accent: 245 190 20; --muted: 100 110 130;
+}
+.dark {
+  --bg: 9 13 28; --fg: 238 242 250; --card: 20 27 50;
+  --brand: 140 165 255; --accent: 250 200 40; --muted: 160 170 195;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-bg text-fg font-sans antialiased transition-colors duration-500; }
+/* Hide the native cursor only on devices with a real mouse */
+@media (hover: hover) and (pointer: fine) { body.has-custom-cursor, body.has-custom-cursor a, body.has-custom-cursor button { cursor: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
